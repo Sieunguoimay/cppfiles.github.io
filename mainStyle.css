@@ -1,0 +1,27 @@
+body{
+	z-index: 0;
+	overscroll-behavior: contain;
+}
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+.free-element{
+	/*behide the screen*/
+	position:absolute;
+
+	/*fullscreen purpose*/
+	left:0px;
+	top:0px;
+
+	/* no floating contents on sides*/ 
+	display: block;
+}
+.disable-selection {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
